@@ -1,0 +1,97 @@
+html{
+    background-color: #212121;
+}
+
+#main{
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: #5D5D81;
+    height: 450px;
+    width: 28%;
+}
+
+#head{
+    margin-top: 0%;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    height: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#output-area{
+    font-size: xx-large;
+    text-align: right;
+    background-color: #3B3355;
+    height: 19%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: antiquewhite;
+}
+
+.symbols{
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+
+    background-color: #3B3355;
+    height: 59%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.symbol,button{
+    font-size: large;
+    background-color: #3B3355;
+    color: antiquewhite;
+}
+
+#equalsto{
+    border: 1px solid rgb(83, 82, 82);
+    background-color: rgb(9, 222, 130);
+    width: 202%;
+    color: white
+}
+
+#equalsto:hover{
+    background-color: rgb(11, 201, 119);
+}
+
+#equalsto:active{
+    background-color: rgb(8, 211, 123);
+}
+
+
+.clr-red{
+    border: 1px solid rgb(83, 82, 82);
+    background-color: rgb(226, 98, 98);
+    color: white;
+}
+
+.clr-red:hover{
+    background-color: rgb(212, 57, 57);
+}
+
+.clr-red:active{
+    background-color: rgb(226, 98, 98);
+}
+
+
+#AC{
+    background-color: rgb(51, 49, 49);
+    color: white;
+}
+
+#AC:hover{
+    background-color: black;
+}
+
+#AC:active{
+    background-color: rgb(51, 49, 49);
+}

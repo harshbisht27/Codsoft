@@ -1,0 +1,247 @@
+/* body, html {
+    height: 36em;
+} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-image: url(./images/home_image.jpg);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#navbar-area {
+    margin-top: 1%;
+}
+
+.color-blue {
+    color: rgb(3, 37, 78);
+}
+
+.color-blue:hover{
+    color: rgb(15, 87, 120);
+}
+
+#mid-head {
+    max-width: 100em;
+}
+
+.navbar-brand {
+    font-family: lato;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-left: 12%;
+}
+
+#navbarSupportedContent {
+    font-size: larger;
+    margin-left: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+#heading {
+    font-family: action-man;
+    width: 45%;
+    height: 30%;
+    font-size: 42px;
+    color: aliceblue;
+    font-weight: 600;
+    margin-left: 26%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
+
+#main {
+    height: 135vh;
+}
+
+#why-choosing-us {
+    height: 45%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    background-color: #E2E2E2;
+}
+
+#wcu-heading {
+    width: 25%;
+    text-align: center;
+    /* align-items: center; */
+    position: relative;
+    top: 25%;
+}
+
+#wcu-heading > h2 {
+    font-size: 46px;
+    font-weight: 600;
+    font-family: lato;
+}
+
+#first-reason {
+    width: 23%;
+    float: left;
+    margin-top: 7%;
+    padding: 5px;
+    margin-left: 3%;
+}
+
+#second-reason {
+    width: 23%;
+    float: left;
+    margin-top: 7%;
+    padding: 5px;
+}
+
+#third-reason {
+    width: 23%;
+    float: left;
+    margin-top: 7%;
+    padding: 5px;
+}
+
+.reason-heading {
+    font-family: lato;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.reason-desc {
+    width: 90%;
+    font-family: lato;
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 19px;
+    color: rgb(128, 128, 128);
+}
+
+
+#best-selling-product {
+    background-color: rgb(243, 243, 243);
+    height: 55%;
+}
+
+#bsp-heading {
+    padding: 25px;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 550;
+    font-family: lato;
+}
+
+#bsp-items {
+    display: flex;
+    background-color: white;
+    width: 70%;
+    height: 60%;
+    margin-left: 16%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.card {
+    width: 10rem;
+    border-radius: 8px;
+}
+
+.card-img-top {
+    height: 120px;
+}
+
+.card-body {
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+}
+
+.card-title {
+    font-family: lato;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-price {
+    margin-bottom: 0%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: lato;
+    font-weight: 540;
+}
+
+
+
+
+.footer{
+    height: 57vh;
+    width: 100%;
+    background-color: rgb(214, 212, 213);
+    display: flex;
+} 
+
+.company-logo{
+    font-family: 'Noto Serif Display', serif;
+}
+
+.first, .second, .third, .fourth {
+    margin-top: 7%;
+}
+
+.first {
+    width: 20%;
+    margin-left: 7%;
+}
+
+.first h1 {
+    font-family: lato;
+}
+
+.first p {
+    margin-top: 20%;
+    font-family: lato;
+    font-weight: 500;
+    text-align: justify;
+    color: #808080;
+}
+
+.second {
+    width: 15%;
+    margin-left: 10%;
+}
+
+.second h2, .third h2, .fourth h2 {
+    font-family: lato;
+}
+
+#s-items, #t-items, #fo-items {
+    margin-top: 20%;
+}
+
+.second h6, .third h6, .fourth h6 {
+    font-family: lato;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: justify;
+    color: #3f3f3f;
+}
+
+.second h6:hover, .third h6:hover, .fourth h6:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.third, .fourth {
+    width: 15%;
+    margin-left: 7%;
+}

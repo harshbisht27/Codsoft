@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="head">
+            <h2>
+                CALCULATOR
+            </h2>
+        </div>
+
+
+        <div id="output-area">
+            
+        </div>
+
+
+        <div class="symbols">
+
+            <button id="AC"  onclick="blank()">AC</button>
+            <button id="sign">+/-</button>
+            <button id="mod">%</button>
+            <button id="divide"  onclick="abc('/')" class="clr-red">/</button>
+            <button id="seven"  onclick="abc('7')">7</button>
+            <button id="eight"  onclick="abc('8')">8</button>
+            <button id="nine"  onclick="abc('9')">9</button>
+            <button id="multiply"  onclick="abc('*')" class="clr-red">*</button>
+            <button id="four"  onclick="abc('4')">4</button>
+            <button id="five"  onclick="abc('5')">5</button>
+            <button id="six"  onclick="abc('6')">6</button>
+            <button id="subtract"  onclick="abc('-')" class="clr-red">-</button>
+            <button id="one"  onclick="abc('1')">1</button>
+            <button id="two"  onclick="abc('2')">2</button>
+            <button id="three"  onclick="abc('3')">3</button>
+            <button id="add"  onclick="abc('+')" class="clr-red">+</button>
+            <button id="zero"  onclick="abc('0')">0</button>
+            <button id="dot"  onclick="abc('.')">.</button>
+            <button id="equalsto"  onclick="calculate()">=</button>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>
